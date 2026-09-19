@@ -4,6 +4,7 @@ from datetime import date
 from app.data_loader import load_bank_data
 
 
+
 def test_load_bank_data_returns_expected_user_and_accounts() -> None:
 	user = load_bank_data()
 	transaction_count = sum(
