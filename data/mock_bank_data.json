@@ -1,0 +1,1969 @@
+{
+  "dataset_version": "0.1",
+  "generated_for": "Financial Intelligence MVP",
+  "period": {
+    "start": "2026-03-01",
+    "end": "2026-08-31"
+  },
+  "user": {
+    "id": "user_001",
+    "name": "Demo User",
+    "country": "Latvia",
+    "base_currency": "EUR"
+  },
+  "accounts": [
+    {
+      "id": "acc_001",
+      "bank": "Swedbank",
+      "account_name": "Everyday Account",
+      "account_type": "checking",
+      "currency": "EUR",
+      "opening_balance": 2800.0,
+      "balance": 10206.7,
+      "transactions": [
+        {
+          "id": "txn_0001",
+          "date": "2026-03-01",
+          "amount": 2650,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0008",
+          "date": "2026-03-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0002",
+          "date": "2026-03-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0006",
+          "date": "2026-03-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0003",
+          "date": "2026-03-05",
+          "amount": -58,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0004",
+          "date": "2026-03-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0005",
+          "date": "2026-03-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0031",
+          "date": "2026-04-01",
+          "amount": 2650,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0039",
+          "date": "2026-04-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0032",
+          "date": "2026-04-03",
+          "amount": 180,
+          "currency": "EUR",
+          "description": "Business travel reimbursement",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "reimbursement"
+        },
+        {
+          "id": "txn_0033",
+          "date": "2026-04-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0037",
+          "date": "2026-04-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0034",
+          "date": "2026-04-05",
+          "amount": -67,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0035",
+          "date": "2026-04-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0036",
+          "date": "2026-04-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0062",
+          "date": "2026-04-21",
+          "amount": -50,
+          "currency": "EUR",
+          "description": "ATM cash withdrawal",
+          "merchant": "Swedbank ATM",
+          "category": "cash",
+          "transaction_type": "cash_withdrawal"
+        },
+        {
+          "id": "txn_0063",
+          "date": "2026-05-01",
+          "amount": 2650,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0070",
+          "date": "2026-05-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0064",
+          "date": "2026-05-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0068",
+          "date": "2026-05-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0065",
+          "date": "2026-05-05",
+          "amount": -68,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0066",
+          "date": "2026-05-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0067",
+          "date": "2026-05-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0186",
+          "date": "2026-05-18",
+          "amount": -320,
+          "currency": "EUR",
+          "description": "Flight booking",
+          "merchant": "airBaltic",
+          "category": "travel",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0093",
+          "date": "2026-06-01",
+          "amount": 2800,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0100",
+          "date": "2026-06-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0094",
+          "date": "2026-06-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0098",
+          "date": "2026-06-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0095",
+          "date": "2026-06-05",
+          "amount": -63,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0096",
+          "date": "2026-06-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0097",
+          "date": "2026-06-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0123",
+          "date": "2026-06-21",
+          "amount": -50,
+          "currency": "EUR",
+          "description": "ATM cash withdrawal",
+          "merchant": "Swedbank ATM",
+          "category": "cash",
+          "transaction_type": "cash_withdrawal"
+        },
+        {
+          "id": "txn_0187",
+          "date": "2026-06-22",
+          "amount": 120,
+          "currency": "EUR",
+          "description": "Tax refund",
+          "merchant": "VID",
+          "category": "income",
+          "transaction_type": "refund"
+        },
+        {
+          "id": "txn_0124",
+          "date": "2026-07-01",
+          "amount": 2800,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0132",
+          "date": "2026-07-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0125",
+          "date": "2026-07-03",
+          "amount": 180,
+          "currency": "EUR",
+          "description": "Business travel reimbursement",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "reimbursement"
+        },
+        {
+          "id": "txn_0126",
+          "date": "2026-07-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0130",
+          "date": "2026-07-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0127",
+          "date": "2026-07-05",
+          "amount": -58,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0128",
+          "date": "2026-07-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0129",
+          "date": "2026-07-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0155",
+          "date": "2026-08-01",
+          "amount": 2800,
+          "currency": "EUR",
+          "description": "Salary - ACME Latvia",
+          "merchant": "ACME Latvia",
+          "category": "income",
+          "transaction_type": "salary"
+        },
+        {
+          "id": "txn_0162",
+          "date": "2026-08-02",
+          "amount": -250,
+          "currency": "EUR",
+          "description": "Transfer to Revolut",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0156",
+          "date": "2026-08-03",
+          "amount": -720,
+          "currency": "EUR",
+          "description": "Apartment rent",
+          "merchant": "Private Landlord",
+          "category": "housing",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0160",
+          "date": "2026-08-04",
+          "amount": -400,
+          "currency": "EUR",
+          "description": "Transfer to savings",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0157",
+          "date": "2026-08-05",
+          "amount": -60,
+          "currency": "EUR",
+          "description": "Electricity bill",
+          "merchant": "Latvenergo",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0158",
+          "date": "2026-08-07",
+          "amount": -35,
+          "currency": "EUR",
+          "description": "Internet",
+          "merchant": "Tet",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0159",
+          "date": "2026-08-09",
+          "amount": -18,
+          "currency": "EUR",
+          "description": "Mobile plan",
+          "merchant": "Tele2",
+          "category": "utilities",
+          "transaction_type": "direct_debit"
+        },
+        {
+          "id": "txn_0192",
+          "date": "2026-08-17",
+          "amount": -41.3,
+          "currency": "EUR",
+          "description": "CARD PURCHASE 5512",
+          "merchant": null,
+          "category": null,
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0185",
+          "date": "2026-08-21",
+          "amount": -50,
+          "currency": "EUR",
+          "description": "ATM cash withdrawal",
+          "merchant": "Swedbank ATM",
+          "category": "cash",
+          "transaction_type": "cash_withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "acc_002",
+      "bank": "Revolut",
+      "account_name": "Daily Spending",
+      "account_type": "checking",
+      "currency": "EUR",
+      "opening_balance": 850.0,
+      "balance": -1695.97,
+      "transactions": [
+        {
+          "id": "txn_0009",
+          "date": "2026-03-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0014",
+          "date": "2026-03-04",
+          "amount": -28.49,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0025",
+          "date": "2026-03-04",
+          "amount": -21.14,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Neste",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0021",
+          "date": "2026-03-08",
+          "amount": -24.79,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0015",
+          "date": "2026-03-10",
+          "amount": -52.81,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0026",
+          "date": "2026-03-10",
+          "amount": -7.5,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Neste",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0010",
+          "date": "2026-03-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0013",
+          "date": "2026-03-11",
+          "amount": -26,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0030",
+          "date": "2026-03-11",
+          "amount": -133.36,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "Zalando",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0022",
+          "date": "2026-03-12",
+          "amount": -17.54,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0011",
+          "date": "2026-03-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0027",
+          "date": "2026-03-13",
+          "amount": -16.04,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0016",
+          "date": "2026-03-14",
+          "amount": -37.83,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0012",
+          "date": "2026-03-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0017",
+          "date": "2026-03-16",
+          "amount": -28.28,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0023",
+          "date": "2026-03-18",
+          "amount": -13.25,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Lido",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0028",
+          "date": "2026-03-20",
+          "amount": -8.85,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0018",
+          "date": "2026-03-22",
+          "amount": -27.35,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0029",
+          "date": "2026-03-23",
+          "amount": -18.23,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0019",
+          "date": "2026-03-24",
+          "amount": -39.11,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0024",
+          "date": "2026-03-25",
+          "amount": -39.66,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0020",
+          "date": "2026-03-28",
+          "amount": -53.66,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0040",
+          "date": "2026-04-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0056",
+          "date": "2026-04-05",
+          "amount": -14.18,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0045",
+          "date": "2026-04-06",
+          "amount": -57.2,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0052",
+          "date": "2026-04-06",
+          "amount": -38.76,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0057",
+          "date": "2026-04-08",
+          "amount": -9.93,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0046",
+          "date": "2026-04-09",
+          "amount": -34.7,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0041",
+          "date": "2026-04-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0061",
+          "date": "2026-04-12",
+          "amount": -52.58,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "Amazon",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0042",
+          "date": "2026-04-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0053",
+          "date": "2026-04-13",
+          "amount": -19.37,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "McDonald's",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0047",
+          "date": "2026-04-14",
+          "amount": -62.02,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0058",
+          "date": "2026-04-15",
+          "amount": -16.69,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Neste",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0043",
+          "date": "2026-04-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0048",
+          "date": "2026-04-18",
+          "amount": -47.84,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0044",
+          "date": "2026-04-19",
+          "amount": -32,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0059",
+          "date": "2026-04-19",
+          "amount": -9.39,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0190",
+          "date": "2026-04-19",
+          "amount": -27.8,
+          "currency": "EUR",
+          "description": "POS 482917",
+          "merchant": null,
+          "category": null,
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0049",
+          "date": "2026-04-20",
+          "amount": -39.73,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0054",
+          "date": "2026-04-20",
+          "amount": -40.67,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0055",
+          "date": "2026-04-24",
+          "amount": -32.94,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Wolt",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0060",
+          "date": "2026-04-25",
+          "amount": -14.87,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0050",
+          "date": "2026-04-26",
+          "amount": -50.34,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0051",
+          "date": "2026-04-28",
+          "amount": -33.24,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0071",
+          "date": "2026-05-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0087",
+          "date": "2026-05-03",
+          "amount": -7.24,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0076",
+          "date": "2026-05-05",
+          "amount": -46.01,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0083",
+          "date": "2026-05-08",
+          "amount": -20.45,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0088",
+          "date": "2026-05-09",
+          "amount": -9.79,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0077",
+          "date": "2026-05-10",
+          "amount": -29.82,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0072",
+          "date": "2026-05-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0073",
+          "date": "2026-05-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0075",
+          "date": "2026-05-13",
+          "amount": -30,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0078",
+          "date": "2026-05-14",
+          "amount": -51.87,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0084",
+          "date": "2026-05-14",
+          "amount": -16.96,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0089",
+          "date": "2026-05-15",
+          "amount": -23.94,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0074",
+          "date": "2026-05-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0079",
+          "date": "2026-05-18",
+          "amount": -33.99,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0085",
+          "date": "2026-05-18",
+          "amount": -28.88,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0090",
+          "date": "2026-05-20",
+          "amount": -14.72,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0080",
+          "date": "2026-05-21",
+          "amount": -25.43,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0086",
+          "date": "2026-05-24",
+          "amount": -30.96,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Wolt",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0092",
+          "date": "2026-05-24",
+          "amount": -143.89,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "Amazon",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0091",
+          "date": "2026-05-25",
+          "amount": -20.32,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0081",
+          "date": "2026-05-26",
+          "amount": -59.17,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0082",
+          "date": "2026-05-28",
+          "amount": -53.81,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0101",
+          "date": "2026-06-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0117",
+          "date": "2026-06-05",
+          "amount": -14.45,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Neste",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0106",
+          "date": "2026-06-06",
+          "amount": -53.5,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0113",
+          "date": "2026-06-06",
+          "amount": -41.69,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0118",
+          "date": "2026-06-09",
+          "amount": -8.81,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0107",
+          "date": "2026-06-10",
+          "amount": -32.65,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0122",
+          "date": "2026-06-10",
+          "amount": -81.3,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "IKEA",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0102",
+          "date": "2026-06-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0191",
+          "date": "2026-06-11",
+          "amount": -64.2,
+          "currency": "EUR",
+          "description": "PAYMENT 839201",
+          "merchant": null,
+          "category": null,
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0114",
+          "date": "2026-06-12",
+          "amount": -28.0,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0103",
+          "date": "2026-06-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0108",
+          "date": "2026-06-13",
+          "amount": -60.28,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0119",
+          "date": "2026-06-15",
+          "amount": -13.62,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Neste",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0104",
+          "date": "2026-06-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0109",
+          "date": "2026-06-16",
+          "amount": -29.65,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0120",
+          "date": "2026-06-19",
+          "amount": -14.34,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0115",
+          "date": "2026-06-20",
+          "amount": -26.99,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0110",
+          "date": "2026-06-21",
+          "amount": -18.99,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0105",
+          "date": "2026-06-24",
+          "amount": -24,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0116",
+          "date": "2026-06-24",
+          "amount": -35.32,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0121",
+          "date": "2026-06-25",
+          "amount": -18.07,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0111",
+          "date": "2026-06-26",
+          "amount": -28.35,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0112",
+          "date": "2026-06-28",
+          "amount": -47.66,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0133",
+          "date": "2026-07-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0138",
+          "date": "2026-07-04",
+          "amount": -43.21,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0149",
+          "date": "2026-07-05",
+          "amount": -19.37,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0145",
+          "date": "2026-07-06",
+          "amount": -40.26,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Lido",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0150",
+          "date": "2026-07-08",
+          "amount": -10.93,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0139",
+          "date": "2026-07-09",
+          "amount": -26.62,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0154",
+          "date": "2026-07-10",
+          "amount": -145.49,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "Zalando",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0134",
+          "date": "2026-07-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0140",
+          "date": "2026-07-12",
+          "amount": -59.1,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0146",
+          "date": "2026-07-12",
+          "amount": -23.26,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Wolt",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0135",
+          "date": "2026-07-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0188",
+          "date": "2026-07-14",
+          "amount": -89.5,
+          "currency": "EUR",
+          "description": "Electronics purchase",
+          "merchant": "Euronics",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0151",
+          "date": "2026-07-15",
+          "amount": -19.71,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0136",
+          "date": "2026-07-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0141",
+          "date": "2026-07-17",
+          "amount": -55.98,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0137",
+          "date": "2026-07-18",
+          "amount": -24,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0147",
+          "date": "2026-07-19",
+          "amount": -42.43,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Wolt",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0142",
+          "date": "2026-07-20",
+          "amount": -48.65,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0152",
+          "date": "2026-07-20",
+          "amount": -11.27,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0143",
+          "date": "2026-07-24",
+          "amount": -61.54,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0148",
+          "date": "2026-07-25",
+          "amount": -24.81,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0153",
+          "date": "2026-07-25",
+          "amount": -14.54,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0144",
+          "date": "2026-07-28",
+          "amount": -37.1,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0163",
+          "date": "2026-08-02",
+          "amount": 250,
+          "currency": "EUR",
+          "description": "Transfer from Swedbank",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0179",
+          "date": "2026-08-03",
+          "amount": -22.59,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0168",
+          "date": "2026-08-04",
+          "amount": -49.73,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0189",
+          "date": "2026-08-04",
+          "amount": 35,
+          "currency": "EUR",
+          "description": "Card payment refund",
+          "merchant": "Zalando",
+          "category": "refund",
+          "transaction_type": "refund"
+        },
+        {
+          "id": "txn_0175",
+          "date": "2026-08-07",
+          "amount": -42.52,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Lido",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0169",
+          "date": "2026-08-09",
+          "amount": -23.63,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0180",
+          "date": "2026-08-09",
+          "amount": -8.15,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0164",
+          "date": "2026-08-11",
+          "amount": -12.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Spotify",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0176",
+          "date": "2026-08-12",
+          "amount": -26.04,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Bolt Food",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0165",
+          "date": "2026-08-13",
+          "amount": -13.99,
+          "currency": "EUR",
+          "description": "Monthly subscription",
+          "merchant": "Netflix",
+          "category": "entertainment",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0167",
+          "date": "2026-08-13",
+          "amount": -37,
+          "currency": "EUR",
+          "description": "Pharmacy purchase",
+          "merchant": "Euroaptieka",
+          "category": "health",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0170",
+          "date": "2026-08-14",
+          "amount": -45.94,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Rimi",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0181",
+          "date": "2026-08-15",
+          "amount": -24.68,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Bolt",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0166",
+          "date": "2026-08-16",
+          "amount": -9.99,
+          "currency": "EUR",
+          "description": "Cloud storage",
+          "merchant": "Google One",
+          "category": "subscriptions",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0171",
+          "date": "2026-08-17",
+          "amount": -48.9,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0184",
+          "date": "2026-08-17",
+          "amount": -48.27,
+          "currency": "EUR",
+          "description": "Online purchase",
+          "merchant": "Zalando",
+          "category": "shopping",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0177",
+          "date": "2026-08-18",
+          "amount": -12.56,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "McDonald's",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0182",
+          "date": "2026-08-20",
+          "amount": -21.34,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Circle K",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0172",
+          "date": "2026-08-21",
+          "amount": -27.6,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Lidl",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0173",
+          "date": "2026-08-24",
+          "amount": -30.48,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Maxima",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0183",
+          "date": "2026-08-25",
+          "amount": -7.07,
+          "currency": "EUR",
+          "description": "Transport",
+          "merchant": "Rigas Satiksme",
+          "category": "transport",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0178",
+          "date": "2026-08-26",
+          "amount": -19.28,
+          "currency": "EUR",
+          "description": "Restaurant / food delivery",
+          "merchant": "Hesburger",
+          "category": "restaurants",
+          "transaction_type": "card_payment"
+        },
+        {
+          "id": "txn_0174",
+          "date": "2026-08-28",
+          "amount": -48.34,
+          "currency": "EUR",
+          "description": "Grocery shopping",
+          "merchant": "Barbora",
+          "category": "groceries",
+          "transaction_type": "card_payment"
+        }
+      ]
+    },
+    {
+      "id": "acc_003",
+      "bank": "Luminor",
+      "account_name": "Savings Account",
+      "account_type": "savings",
+      "currency": "EUR",
+      "opening_balance": 4200.0,
+      "balance": 6600.0,
+      "transactions": [
+        {
+          "id": "txn_0007",
+          "date": "2026-03-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0038",
+          "date": "2026-04-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0069",
+          "date": "2026-05-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0099",
+          "date": "2026-06-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0131",
+          "date": "2026-07-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        },
+        {
+          "id": "txn_0161",
+          "date": "2026-08-04",
+          "amount": 400,
+          "currency": "EUR",
+          "description": "Transfer from everyday account",
+          "merchant": "Own Account",
+          "category": "transfer",
+          "transaction_type": "internal_transfer"
+        }
+      ]
+    }
+  ]
+}
