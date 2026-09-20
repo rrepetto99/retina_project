@@ -22,3 +22,16 @@ def calculate_total_expenses(user: User) -> Decimal:
                 total_expenses += abs(transaction.amount)
 
     return total_expenses
+
+def calculate_savings(total_income: Decimal, total_expenses: Decimal) -> tuple[Decimal, Decimal]:    
+    total_savings = total_income - total_expenses
+    
+    if total_income == Decimal("0"):
+        savings_rate = Decimal("0")
+    else:
+        savings_rate = total_savings / total_income
+        
+    return total_savings, savings_rate
+
+
+    
