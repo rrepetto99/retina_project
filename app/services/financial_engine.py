@@ -1,5 +1,5 @@
 from decimal import Decimal
-
+from collections import defaultdict
 from app.models.transaction import Transaction
 from app.models.user import User
 
@@ -43,3 +43,18 @@ def calculate_savings(total_income: Decimal, total_expenses: Decimal) -> tuple[D
         savings_rate = total_savings / total_income
 
     return total_savings, savings_rate
+
+def calculate_expenses_by_category(
+    transactions: User | list[Transaction],
+) -> dict[str, Decimal]:
+    expenses_by_category: dict[str, Decimal] = defaultdict(lambda: Decimal("0"))
+
+    for transaction in _flatten_transactions(transactions):
+        if (
+            transaction.amount < 0
+            and transaction.category not in {"income", "transfer"}
+        ):
+            category = transaction.category or "uncategorized"
+            expenses_by_category[category] += abs(transaction.amount)
+
+    return dict(expenses_by_category)

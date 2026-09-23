@@ -6,7 +6,7 @@ from app.services.financial_engine import calculate_total_expenses
 from app.services.financial_engine import calculate_savings
 
 from app.services.monthly_analysis import calculate_monthly_summary
-
+from app.services.financial_engine import calculate_expenses_by_category
 
 def test_calculate_monthly_summary() -> None:
     user = load_bank_data()
@@ -71,3 +71,18 @@ def test_monthly_savings_rate_is_correct() -> None:
             assert summary.savings_rate == (
                 summary.savings / summary.income
             )
+            
+            
+def test_calculate_expenses_by_category() -> None:
+    user = load_bank_data()
+
+    expenses = calculate_expenses_by_category(user)
+
+    assert "groceries" in expenses
+    assert "housing" in expenses
+    assert "restaurants" in expenses
+    assert "transport" in expenses
+    assert "transfer" not in expenses
+    assert expenses["housing"] == Decimal("4320")
+    
+    
